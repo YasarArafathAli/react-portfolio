@@ -2,15 +2,19 @@ import React from "react";
 
 function article_1() {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		date: "14 May 2022",
+		title: "How to Contribute to any project on GitHub",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"A beginner-friendly guide to help you start contributing to open-source projects on GitHub with easy steps and useful tips.",
+		link: "https://yasararafath.hashnode.dev/contribute-github",
 		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"Contribute to Github",
+			'Contribute to Open Source',
+			"Contribute to Open Source Projects",
+			"Contribute to Open Source Projects on Github",
+			"Yasar",
+			"Yasar Arafath",
+			"Yasar Arafath Ali",
 		],
 		style: `
 				.article-content {
@@ -39,18 +43,80 @@ function article_1() {
 	};
 }
 
+
+
 function article_2() {
 	return {
-		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		date: "14 May 2024",
+		title: "Deep Dive into JavaScript Events: Bubbling, Propagation, Capturing & More",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
+			"Explore JavaScript event handling: understand bubbling, capturing, propagation phases, and methods to control event flow effectively.",
+		link: "https://yasararafath.hashnode.dev/deep-dive-into-javascript-events-bubbling-propagation-capturing-and-more",
 		style: ``,
 		keywords: [
-			"Artificial Intelligence in Healthcare",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"Deep Dive into JavaScript Events: Bubbling, Propagation, Capturing & More",
+			"JavaScript Events",
+			"JavaScript Event Bubbling",
+			"JavaScript Event Propagation",
+			"JavaScript Event Capturing",
+			"JavaScript Event Handling",
+			"JavaScript Event Listeners",
+			"Yasar",
+			"Yasar Arafath",
+			"Yasar Arafath Ali",
+		],
+		body: (
+			<React.Fragment>
+				<h1>Content of article 2</h1>
+			</React.Fragment>
+		),
+	};
+}
+function article_3() {
+	return {
+		date: "24 October 2024",
+		title: "React Hooks Explained with Real-Life Examples",
+		description:
+			"Explore the power of React Hooks in this article, with clear explanations and real-life examples. Learn how to manage state, side effects, and more in functional components.",
+		link: "https://yasararafath.hashnode.dev/react-hooks",
+		style: ``,
+		keywords: [
+			"React Hooks Explained with Real-Life Examples",
+			"React Hooks",
+			"React Hooks Examples",
+			"React Functional Components",
+			"React State Management",
+			"React Side Effects",
+			"React useState",
+			"React useEffect",
+			"Yasar",
+			"Yasar Arafath",
+			"Yasar Arafath Ali",
+		],
+		body: (
+			<React.Fragment>
+				<h1>Content of article 2</h1>
+			</React.Fragment>
+		),
+	};
+}
+function article_4() {
+	return {
+		date: "8 April 2025",
+		title: "Understanding WebSocket Communication: How Clients and Servers Talk in Real-Time",
+		description:
+			"Explore the fundamentals of WebSockets, their role in enabling real-time communication, and how they differ from traditional HTTP protocols.",
+		link: "https://yasararafath.hashnode.dev/understanding-websockets",
+		style: ``,
+		keywords: [
+			"Understanding WebSocket Communication: How Clients and Servers Talk in Real-Time",
+			"WebSocket Communication",
+			"WebSocket",
+			"WebSocket Communication in Real-Time",
+			"client-server communication",
+			"Yasar",
+			"Yasar Arafath",
+			"Yasar Arafath Ali",
 		],
 		body: (
 			<React.Fragment>
@@ -60,6 +126,8 @@ function article_2() {
 	};
 }
 
-const myArticles = [article_1, article_2];
+
+export const homeArticles = [article_4, article_3]
+const myArticles = [article_1, article_2, article_3, article_4];
 
 export default myArticles;

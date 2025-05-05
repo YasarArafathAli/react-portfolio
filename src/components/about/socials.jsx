@@ -6,6 +6,7 @@ import {
 	faGithub,
 	faLinkedin,
 	faInstagram,
+	faHashnode,
 } from "@fortawesome/free-brands-svg-icons";
 
 import INFO from "../../data/user";
@@ -38,7 +39,21 @@ const Socials = () => {
 					<div className="social-text">Follow on GitHub</div>
 				</a>
 			</div>
-
+			<div className="social">
+				<a
+					href={INFO.socials.hashnode}
+					target="_blank"
+					rel="noreferrer"
+				>
+					<div className="social-icon">
+						<FontAwesomeIcon
+							icon={faHashnode}
+							className="social-icon"
+						/>
+					</div>
+					<div className="social-text">Follow on Hashnode</div>
+				</a>
+			</div>
 			<div className="social">
 				<a
 					href={INFO.socials.linkedin}
@@ -51,7 +66,7 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on LinkedIn</div>
+					<div className="social-text">Connect on LinkedIn</div>
 				</a>
 			</div>
 
