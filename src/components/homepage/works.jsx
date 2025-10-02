@@ -19,10 +19,10 @@ const Works = () => {
 								alt="storable"
 								className="work-image"
 							/>
-							<div className="work-title">Storable</div>
-							<div className="work-subtitle">
-							  Software Engineer
+							<div className="work-title">
+							  Software Engineer II - Fullstack
 							</div>
+							<div className="work-subtitle">Storable</div>
 							<div className="work-duration">2024 - Present</div>
 						</div>
 
@@ -32,10 +32,10 @@ const Works = () => {
 								alt="rootquotient"
 								className="work-image"
 							/>
-							<div className="work-title">Rootquotient</div>
-							<div className="work-subtitle">
-								Software Engineer
+							<div className="work-title">
+								Software Engineer I
 							</div>
+							<div className="work-subtitle">Rootquotient</div>
 							<div className="work-duration">2022 - 2024</div>
 						</div>
 						<div className="work">
@@ -44,10 +44,10 @@ const Works = () => {
 								alt="LearnApp"
 								className="work-image"
 							/>
-							<div className="work-title">LearnApp</div>
-							<div className="work-subtitle">
-								Software Engineer - 1
+							<div className="work-title">
+								Software Engineer
 							</div>
+							<div className="work-subtitle">LearnApp</div>
 							<div className="work-duration">2021 - 2022</div>
 						</div>
 					</div>

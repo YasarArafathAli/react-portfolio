@@ -36,48 +36,40 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+			title: "Live Bitcoin Dashboard",
+			description: "A real-time cryptocurrency dashboard built with React, displaying live prices, interactive charts, and market metrics for Bitcoin, Ethereum, and other major cryptocurrencies.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
-		},
-
+			link: "https://live-bitcoin-dashboard.vercel.app/",
+	},
+	{
+    title: "CloudTyper",
+    description: "A minimalist web game where you type out words that appear on the passing clouds. Built with React and Vercel.",
+    logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+    linkText: "Play CloudTyper",
+    link: "https://balloonjs.vercel.app/",
+},
+{
+	title: "OpenDiary",
+	description: "A fullstack diary application where users can create, read, update, and delete diary entries. Built with React and Apollo Client for the frontend, communicating with a GraphQL backend.",
+	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/react/react.png",
+	linkText: "View Client",
+	link: "https://github.com/YasarArafathAli/OpenDiary-Client",
+},
+{
+	title: "OpenDiary Server",
+	description: "GraphQL backend server for the OpenDiary app, providing APIs for diary management and user authentication. Built with Node.js, Express, Apollo Server, and MongoDB.",
+	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/nodejs/nodejs.png",
+	linkText: "View Server",
+	link: "https://github.com/YasarArafathAli/OpenDiary-server",
+},
 		{
-			title: "Project 2",
+			title: "Blog CMS",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"A content management system for blogs built with React, Node.js, and MongoDB, featuring rich text editing and user management.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/YasarArafathAli/blog-cms",
 		},
 	],
 };
