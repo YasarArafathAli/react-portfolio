@@ -2,36 +2,36 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a fullstack developer with expertise in JavaScript, React and Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills.",
-		keywords: ["Yasar Arafath", "Yasar Arafath Ali", "Yasar Arafath Ali Portfolio"],
+			"Full-Stack Software Engineer with 4+ years of experience building AI-powered web applications. Specialized in React, Next.js, Node.js, Python, and RAG systems. Expert in LLM integration, system design, and cloud deployments.",
+		keywords: ["Yasar Arafath", "Yasar Arafath Ali", "Full-Stack Engineer", "AI Engineer", "RAG Systems", "React Developer", "Next.js Developer", "LLM Integration", "Software Engineer Portfolio", "Full-Stack Software Engineer Portfolio", "full stack engineer", "full stack developer", "full stack engineer portfolio", "full stack developer portfolio"],
 	},
 
 	{
 		page: "about",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind.",
-		keywords: ["Yasar Arafath", "Yasar Arafath Ali", "Yasar Arafath Ali Portfolio"],
+			"Full-Stack Software Engineer building AI-enabled systems that solve real problems. Led development of production systems serving thousands of users, from hospital management platforms to AI-powered document chat applications.",
+		keywords: ["Yasar Arafath", "Yasar Arafath Ali", "Full-Stack Engineer", "AI Engineer", "Software Engineer", "About Yasar Arafath"],
 	},
 
 	{
 		page: "articles",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-		keywords: ["Yasar Arafath", "Yasar Arafath Ali", "Yasar Arafath Ali Portfolio"],
+			"Chronological collection of my long-form thoughts on programming, AI/ML, system design, and software engineering best practices.",
+		keywords: ["Yasar Arafath", "Yasar Arafath Ali", "Software Engineering Articles", "Tech Blog", "Programming Articles"],
 	},
 
 	{
 		page: "projects",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to.",
-		keywords: ["Yasar Arafath", "Yasar Arafath Ali", "Yasar Arafath Ali Portfolio"],
+			"AI-powered projects including RAG-based document chat systems, real-time Bitcoin dashboards, and full-stack social media applications. Built with React, Next.js, Node.js, and AI/ML technologies.",
+		keywords: ["Yasar Arafath", "Yasar Arafath Ali", "AI Projects", "RAG Systems", "React Projects", "Full-Stack Projects", "Portfolio Projects"],
 	},
 
 	{
 		page: "contact",
 		description:
-			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",
-		keywords: ["Yasar Arafath", "Yasar Arafath Ali", "Yasar Arafath Ali Portfolio"],
+			"Interested in collaborating on AI-powered projects or discussing opportunities? Get in touch with Yasar Arafath, Full-Stack Software Engineer specializing in AI-enabled web applications.",
+		keywords: ["Yasar Arafath", "Yasar Arafath Ali", "Contact", "Software Engineer Contact"],
 	},
 ];
 

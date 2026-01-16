@@ -17,15 +17,15 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "I'm Yasar Arafath Ali, a Full-stack web-app developer, and amateur singer.",
+		title: "I'm Yasar Arafath Ali, a Full-Stack Software Engineer building AI-powered applications.",
 		description:
-			"I am a fullstack developer with expertise in JavaScript, React and Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"With 4+ years of experience designing and developing scalable web applications, I specialize in integrating AI capabilities using LLM APIs and Retrieval-Augmented Generation (RAG) systems. I architect end-to-end solutions using React, Next.js, Node.js, and Python, focusing on performance, security, and delivering measurable business impact.",
 	},
 
 	about: {
-		title: "I’m Yasar Arafath. I live in India, where I develop the future.",
+		title: "I'm Yasar Arafath. I build AI-enabled systems that solve real problems.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"As a Full-Stack Software Engineer, I've led development of production systems serving thousands of users, from hospital management platforms to AI-powered document chat applications. My work spans the entire stack—designing scalable architectures, building responsive UIs, developing robust APIs, and integrating AI capabilities that deliver tangible value. I'm passionate about writing maintainable code, reducing technical debt, and shipping features that matter.",
 	},
 
 	articles: {
@@ -36,40 +36,25 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Live Bitcoin Dashboard",
-			description: "A real-time cryptocurrency dashboard built with React, displaying live prices, interactive charts, and market metrics for Bitcoin, Ethereum, and other major cryptocurrencies.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			title: "AI Knowledge Base / Document Chat (RAG)",
+			description: "Problem: Organizations struggle to extract insights from large document repositories. Solution: Built an AI-powered document Q&A system using Retrieval-Augmented Generation (RAG) that enables semantic search and contextual answers from ingested documents. Impact: Users can query complex documents in natural language and receive accurate, context-aware responses. Tech Stack: NestJS, OpenAI API, Vector DBs (Qdrant, Pinecone), LangChain, document embeddings, semantic retrieval.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/typescript/typescript.svg",
+			linkText: "View Project",
+			link: "https://github.com/YasarArafathAli/phind-ai",
+		},
+		{
+			title: "Real-Time Bitcoin Price Dashboard",
+			description: "Problem: Cryptocurrency traders need reliable, real-time price data with minimal latency and high availability. Solution: Built a high-performance price tracker using React 18+ with hybrid data architecture combining Polygon REST API and Finnhub WebSocket. Implemented fault-tolerant WebSocket lifecycle management with exponential backoff and price-change filtering (>0.01%). Impact: Delivered sub-second price updates with 99.9% uptime and graceful degradation. Tech Stack: React 18, WebSockets, fault-tolerant architecture, exponential backoff, real-time data filtering.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/javascript/javascript.svg",
 			linkText: "View Project",
 			link: "https://live-bitcoin-dashboard.vercel.app/",
-	},
-	{
-    title: "CloudTyper",
-    description: "A minimalist web game where you type out words that appear on the passing clouds. Built with React and Vercel.",
-    logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-    linkText: "Play CloudTyper",
-    link: "https://balloonjs.vercel.app/",
-},
-{
-	title: "OpenDiary",
-	description: "A fullstack diary application where users can create, read, update, and delete diary entries. Built with React and Apollo Client for the frontend, communicating with a GraphQL backend.",
-	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/react/react.png",
-	linkText: "View Client",
-	link: "https://github.com/YasarArafathAli/OpenDiary-Client",
-},
-{
-	title: "OpenDiary Server",
-	description: "GraphQL backend server for the OpenDiary app, providing APIs for diary management and user authentication. Built with Node.js, Express, Apollo Server, and MongoDB.",
-	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/nodejs/nodejs.png",
-	linkText: "View Server",
-	link: "https://github.com/YasarArafathAli/OpenDiary-server",
-},
+		},
 		{
-			title: "Blog CMS",
-			description:
-				"A content management system for blogs built with React, Node.js, and MongoDB, featuring rich text editing and user management.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com/YasarArafathAli/blog-cms",
+			title: "Open Diary",
+			description: "Problem: Users wanted a modern social media platform with real-time updates and flexible data querying. Solution: Built a full-stack social media application with real-time data handling using React, Node.js, Apollo GraphQL, and MongoDB. Implemented JWT-based authentication and optimized GraphQL queries for efficient data fetching. Impact: Enabled real-time social interactions with flexible, performant data access patterns. Tech Stack: React, Node.js, Apollo GraphQL, MongoDB, JWT authentication, real-time subscriptions.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/javascript/javascript.svg",
+			linkText: "View Client",
+			link: "https://github.com/YasarArafathAli/OpenDiary-Client",	
 		},
 	],
 };

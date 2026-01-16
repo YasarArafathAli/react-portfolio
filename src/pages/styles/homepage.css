@@ -78,6 +78,17 @@
 	padding-top: 40px;
 }
 
+/* Truncate project descriptions on homepage to ~100 words */
+.homepage-projects .project-description {
+	display: -webkit-box;
+	-webkit-line-clamp: 6;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 1.6;
+	max-height: calc(1.6em * 6);
+}
+
 .homepage-articles {
 	flex-basis: 900px;
 	padding-top: 30px;

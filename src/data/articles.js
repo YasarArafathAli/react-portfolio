@@ -127,7 +127,7 @@ function article_4() {
 }
 
 
-export const homeArticles = [article_4, article_3]
-const myArticles = [article_1, article_2, article_3, article_4];
+export const homeArticles = [article_3, article_4]
+const myArticles = [article_4, article_3, article_2, article_1];
 
 export default myArticles;
